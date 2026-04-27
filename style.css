@@ -1,0 +1,136 @@
+body{
+    font-family: 'Playwrite DE SAS', sans-serif;
+}
+
+body main h1{
+
+    color: rgb(255, 0, 93);
+    margin: 20px;
+    text-align: center;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+}
+body header nav{
+    background-color: rgb(1, 1, 140);
+    padding: 15px 0;
+    margin: 0;
+}
+body header nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+body header nav ul li{
+    list-style: none;
+}
+body header nav ul li a{
+    color: antiquewhite;
+}
+
+main h3:nth-of-type(2){
+     color: rgb(255, 0, 93);
+     margin: 20px;
+     text-align: center;
+     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+main h3:first-of-type{
+     margin: 20px;
+     text-align: center;
+     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+main li{
+    text-align: center;
+}
+
+main ol{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-position: inside;
+}
+
+main div{   
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+aside {
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 16px;
+    margin: 35px auto;
+    width: 90%;
+    max-width: 500px;
+}
+
+body header h1{
+    margin: 100px;
+    background-color: aliceblue;
+}
+body main{  
+    margin: 100px;
+    background-color: aliceblue;
+    border: 3px solid rgb(0, 0, 0);
+}
+body header h3{
+    margin: 100px;
+    background-color: aliceblue;
+}
+
+table{
+    width: 80%;
+    border-collapse: collapse;
+    box-shadow: 0 4px 6px rgb(0, 0, 0);
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+table caption{
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px;
+    background-color: rgb(255, 183, 0);
+    color: white;
+}
+
+table tr:first-child{
+    background-color: rgb(255, 255, 255);
+}
+
+table tr:nth-child(even){
+    background-color: #ffffff;
+}
+
+table tr:nth-child(odd):not(:first-child){
+    background-color: white;
+}
+
+table td{
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+table td a{
+    color: rgb(1, 1, 140);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+table td a:hover{
+    text-decoration: underline;
+}
