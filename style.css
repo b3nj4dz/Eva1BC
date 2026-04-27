@@ -25,7 +25,7 @@ body header nav ul li{
     list-style: none;
 }
 body header nav ul li a{
-    color: antiquewhite;
+    color: rgb(253, 209, 151);
 }
 
 main h3:nth-of-type(2){
